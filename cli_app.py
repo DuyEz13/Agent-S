@@ -261,7 +261,7 @@ def main():
     # parser.add_argument(
     #     "--model_api_key",
     #     type=str,
-    #     default="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",
+    #     default="",
     #     help="The API key of the main generation model.",
     # )
     # parser.add_argument(
@@ -292,7 +292,7 @@ def main():
     parser.add_argument(
         "--model_api_key",
         type=str,
-        default="AIzaSyDJc_dxJAjykN_2cDYpQywuREkA28qSXWs",
+        default="",
         help="The API key of the main generation model.",
     )
     parser.add_argument(
@@ -318,7 +318,7 @@ def main():
     parser.add_argument(
         "--ground_api_key",
         type=str,
-        default="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",
+        default="",
         help="The API key of the grounding model.",
     )
     parser.add_argument(
